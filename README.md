@@ -1,7 +1,9 @@
 #  Directory Explorer
 
 A lightweight, single-file PHP utility for navigating remote server directories, inspecting files, and diagnosing server health. Designed as a "drop-in" rescue tool for developers.
+
  **This project was developed using various tools, including LLMs**
+
 ![PHP](https://img.shields.io/badge/PHP-8.0%2B-777BB4?style=flat-square&logo=php&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 
