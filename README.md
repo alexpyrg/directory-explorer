@@ -1,20 +1,20 @@
 #  Directory Explorer
 
 A lightweight, single-file PHP utility for navigating remote server directories, inspecting files, and diagnosing server health. Designed as a "drop-in" rescue tool for developers.
-
+ **This project was developed using various tools, including LLMs**
 ![PHP](https://img.shields.io/badge/PHP-8.0%2B-777BB4?style=flat-square&logo=php&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 
 ##  Features
 
-- ** Single File Deployment**: No dependencies, no installation. Just drop it in and go.
-- ** Recursive File Browser**: Navigate your server's file system with a clean, responsive UI.
-- ** Instant File Viewer**: Safely view code and configuration files (read-only) without downloading them.
-- ** Server Health Dashboard**:
+- **Single File Deployment**: No dependencies, no installation. Just drop it in and go.
+- **Recursive File Browser**: Navigate your server's file system with a clean, responsive UI.
+- **Instant File Viewer**: Safely view code and configuration files (read-only) without downloading them.
+- **Server Health Dashboard**:
   - Monitor Disk Usage, Memory Limits, and Max Execution Time.
   - View all loaded PHP Extensions with real-time search.
   - Check Opcache status and PHP API details.
-- ** Security Focused**:
+- **Security Focused**:
   - Password authentication (hardcoded).
   - CSRF Protection.
   - Session Fixation Protection.
@@ -45,8 +45,6 @@ This tool is intended for **temporary use** by authorized administrators.
 - It displays sensitive server configuration.
 - **Do not** leave it permanently on a public-facing server.
 - Renaming the file to something obscure (e.g., `rescue_8x92a.php`) is recommended during use.
-
-## Screenshots
 
 ### File Explorer
 Navigate directories and grab paths quickly.
